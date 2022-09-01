@@ -1,6 +1,7 @@
 <template>
     <div class="home">
         <span class="icon-bookmark"></span>
+        <span class="text">ABCDEFG</span>
     </div>
 </template>
 
@@ -22,5 +23,10 @@ export default {
 }
 .icon-bookmark {
     font-size: 30px;
+}
+.text {
+    font-family: 'Days One';
+    font-size: 1rem;
+    color: blue;
 }
 </style>
