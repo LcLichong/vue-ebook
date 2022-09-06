@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .home {
     height: 100%;
 }
@@ -24,9 +24,9 @@ export default {
 .icon-bookmark {
     font-size: 30px;
 }
+@import '../assets/styles/global.scss';
 .text {
-    font-family: 'Days One';
-    font-size: 1rem;
+    font-size: px2rem(20);
     color: blue;
 }
 </style>
